@@ -1,32 +1,42 @@
-AudiofyText: Your Ultimate Free Text-to-Speech and Speech-to-Text Solution
-Looking for the best Text-to-Speech Free Converter? Look no further! AudiofyText is a versatile, user-friendly Text-to-Speech (TTS) tool that helps you effortlessly convert text into high-quality, natural-sounding audio files. Our platform leverages advanced Google APIs, ensuring reliable and accurate text-to-speech conversion in multiple languages and accents.
+# AudiofyText: Your Ultimate Text-to-Speech and Speech-to-Text Solution
 
-But that’s not all. We also offer a powerful Speech-to-Text tool that allows you to convert audio or video files, such as MP3 and MP4, into text quickly and efficiently.
+[![Visit AudiofyText](https://img.shields.io/badge/Visit-AudiofyText-blue)](https://audiofytext.com)
 
-Why Choose AudiofyText?
-Whether you need audio for educational materials, language practice, accessibility, or just for fun, AudiofyText has you covered. With support for over 50 languages and a range of voices, you can pick the option that suits your needs best.
+AudiofyText is an easy-to-use, powerful platform that enables you to convert text into high-quality audio and transform audio or video files (like MP3 or MP4) into text. Whether you're a content creator, a student, or someone looking to improve accessibility, AudiofyText has got you covered.
 
-Key Features:
-Powered by Google APIs:
-Advanced speech synthesis ensures crystal-clear, natural-sounding audio.
-Multi-Language Support:
-Convert text to speech in languages like English, French, Spanish, German, and more.
-Fast and Efficient:
-Generate audio in seconds and download it in MP3 format.
-Free to Use:
-No hidden fees or subscriptions—just straightforward functionality.
-Speech-to-Text Conversion:
-With our Speech-to-Text tool, easily convert audio files (MP3/MP4) into text for accessibility, transcription, or creative projects.
-How Does It Work?
-The Sound of Text tool simplifies converting written text into audio. Choose your preferred voice type (male or female) and customize the output to suit your requirements. Perfect for accessibility, education, or entertainment, this feature transforms text into high-quality, flexible audio.
+## Features
 
-For those needing to turn audio into text, the Speech-to-Text tool offers unparalleled ease and accuracy, making it ideal for content creators, students, and professionals.
+### Text-to-Speech Tool
+- **Advanced Technology**: Powered by Google APIs to ensure crystal-clear, natural-sounding audio.
+- **Multi-Language Support**: Convert text to speech in English, French, Spanish, German, and many more languages.
+- **Custom Voice Options**: Choose between male and female voices for a personalized touch.
+- **Fast and Free**: Generate MP3 audio files within seconds, without any hidden charges.
 
-Who Is It For?
-Content Creators: Generate engaging audio for videos, podcasts, or other media.
-Students: Simplify learning materials or language practice with customized audio.
-Accessibility Advocates: Create accessible content for diverse audiences.
-Get Started Today
-Discover the potential of modern text-to-speech and speech-to-text technologies with AudiofyText. Whether you're creating high-quality audio from text or converting audio files to text, our tools are here to make your workflow smoother and more efficient.
+### Speech-to-Text Tool
+- **Convert MP3 or MP4 Files to Text**: Effortlessly transform your audio or video files into text.  
+  👉 Try it now: [Speech-to-Text Converter](https://audiofytext.com/speech-to-text/)
 
-Explore AudiofyText and the Speech-to-Text tool today!
+## Why Choose AudiofyText?
+- **User-Friendly Interface**: No steep learning curve—just simplicity and efficiency.
+- **Completely Free**: Enjoy our tools without worrying about subscriptions or hidden fees.
+- **Global Accessibility**: Tailored for users worldwide, supporting over 50 languages.
+
+## Quick Start
+1. Visit [AudiofyText](https://audiofytext.com) to explore our text-to-speech and speech-to-text tools.
+2. Use our [Speech-to-Text feature](https://audiofytext.com/speech-to-text/) to convert your MP3/MP4 files into text effortlessly.
+3. Customize your audio with different languages and voice options.
+
+## Example API Usage
+Here's an example of how you can use our API to create audio from text:
+
+```python
+# Example: Using the AudiofyText API
+import requests
+
+url = "https://api.audiofytext.com/sounds"
+data = {
+    "text": "Convert this text to audio.",
+    "voice": "en-US"
+}
+response = requests.post(url, json=data)
+print(response.json())
